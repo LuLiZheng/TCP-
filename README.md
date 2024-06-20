@@ -11,14 +11,14 @@ Server.java是一个简单的 Java 服务器端程序，用于接收客户端的
 ## 使用
 
 1. 克隆本仓库到本地
-2. 使用 Java 编译器编译 `Server.java` 文件
-3. 运行编译后的程序 `Server`
+2. 使用 Java 编译器编译 src目录下.java 文件
+3. 运行编译后的程序 `Server.java`
 
 ## 文件结构
 
 - `Server.java`: 主要的服务器端程序代码
-- `Client.txt`: 用于向不匹配版本号的客户端发送的文件
-- `DatabaseHelper.java`: 数据库操作的辅助类（如果有的话）
+- `Newclient.class`: 用于向不匹配版本号的客户端发送的文件
+- `DatabaseHelper.java`: 数据库操作的辅助类
 
 ## 注意事项
 
@@ -38,9 +38,9 @@ Client.java客户端程序是一个简单的网络应用，用于与服务器进
 
 ## 使用方法
 
-1. 下载客户端程序文件（Client.java）到本地环境。
-2. 编译客户端程序：`javac Client.java`
-3. 运行客户端程序：`java Client`
+1. 下载客户端程序文件到本地环境。
+2. 编译客户端程序：`javac *java`
+3. 运行客户端程序：`java Launcher`
 4. 程序将提示您输入选项，按照提示操作即可。
 
 ## 注意事项
